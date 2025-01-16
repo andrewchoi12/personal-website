@@ -16,8 +16,14 @@ body {
   max-width: 1200px;
 }
 
-.Main {
-  padding-top: 50px;
+#about {
+  margin-top: 60px;
+  scroll-margin-top: 80px;
+}
+
+#skills {
+  margin-top: 20px;
+  scroll-margin-top: 80px;
 }
 
 .justify-center-custom {
