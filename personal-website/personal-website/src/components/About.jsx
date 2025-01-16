@@ -5,15 +5,14 @@ const About = () => {
       <section id="about" className="py-3">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-0">About Me</h2>
-          <div className="flex flex-wrap">
-            <div className="w-full md:w-1/2 p-10">
+          <div className="flex flex-wrap mt-0">
+            <div className="w-full md:w-1/2 p-20">
               <img src={SeniorPortrait} alt="Andrew Choi" className="rounded-lg shadow-lg" />
             </div>
-            <div className="w-full md:w-1/2 p-10">
+            <div className="w-full md:w-1/2 p-10 flex items-center justify-center">
               <p className="text-gray-600 text-lg mt-6 mb-8">
                 I'm a recent graduate of Boston College with a degree in computer science. Through internship work, classes, and projects I have gained a strong and well-rounded foundation in software engineering.
-              </p>
-              <p className="text-gray-600 text-lg">
+                <br /><br />
                 I am driven by a passion to solve complex problems and thrive on challenging myself and learning as much as I can. I am excited to use these skills in a full-time software engineering role.
               </p>
             </div>
