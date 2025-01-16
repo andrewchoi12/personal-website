@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header';
+import About from './components/About';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
         <Header />
       </div>
       <div class="Main">
+        <About />
         <p>
         Lorem ipsum odor amet, consectetuer adipiscing elit. Nullam vulputate ultrices parturient, in dictum consectetur. Fames urna est; nullam sociosqu amet pretium. Metus vitae facilisi molestie eros morbi dolor blandit elementum. Vestibulum vel inceptos blandit fusce purus per. Felis integer urna tempus blandit felis commodo leo netus. Taciti duis per fames non congue pharetra aenean quam. Pretium mauris dis suspendisse phasellus sollicitudin orci faucibus.
 

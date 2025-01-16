@@ -17,7 +17,11 @@ body {
 }
 
 .Main {
-  padding-top: 80px;
+  padding-top: 50px;
+}
+
+.justify-center-custom {
+  justify-content: center;
 }
 
 

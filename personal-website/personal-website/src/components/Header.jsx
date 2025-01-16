@@ -4,15 +4,24 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-md fixed left-1/4 right-1/4 z-50 px=12">
-      <nav className="container mx-auto px-6 py-3">
-        <div className="flex justify-between items-center">
+    <header className="bg-white shadow-md fixed top-3 left-1/2 transform -translate-x-1/2 z-50 w-3/4">
+      <nav className="container mx-auto px- py-3">
+        <div className="flex items-center w-full justify-center-custom">
+          {/* Left side menu */}
+          <div className="flex space-x-4 justify-end w-1/4">
             <a href="#about" className="text-gray-600 hover:text-gray-800">About</a>
             <a href="#skills" className="text-gray-600 hover:text-gray-800">Skills</a>
-            <a href="#" className="text-2xl font-bold text-gray-800">Andrew Choi</a>
+          </div>
+
+          {/* Centered text */}
+          <a href="#" className="text-4xl font-bold text-gray-800 px-4">Andrew Choi</a>
+
+          {/* Right side menu */}
+          <div className="flex space-x-4 justify-start w-1/4">
             <a href="#projects" className="text-gray-600 hover:text-gray-800">Projects</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-800">Contact</a>
           </div>
+        </div>
       </nav>
     </header>
   )
