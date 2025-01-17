@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /*font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-family: Roboto; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+#about {
+  margin-top: 120px;
+  scroll-margin-top: 150px;
+}
+
+#skills {
+  margin-top: 20px;
+  scroll-margin-top: 150px;
+}
+
+#projects {
+  scroll-margin-top: 100px;
+}
+
+#resume {
+  scroll-margin-top: 100px;
+}
+
+.justify-center-custom {
+  justify-content: center;
+}
+
+
+
+
